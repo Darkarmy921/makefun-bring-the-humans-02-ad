@@ -153,6 +153,12 @@ node cli/makefun.mjs --help
 You need Node.js 22 or later to run it (Node 24 works; avoid Node 23.0–23.7,
 which the CLI refuses to run on). Nothing else to install.
 
+The kit itself moves: `make.fun/skill.md` is versioned, and a new version can
+arrive while a bounty is still open. A transcript bundle sealed under an
+older kit goes stale, so before you submit, re-download the kit, re-seal your
+bundle under the fresh one, and re-run the checks. Never submit a bundle
+sealed under a kit older than the one the skill page names.
+
 Inside the kit, two files matter most:
 
 - **`RULES.txt`** — the bounty's rules, word for word. This is the contract.
